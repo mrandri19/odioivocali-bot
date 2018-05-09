@@ -6,14 +6,14 @@ A telegram bot which uses either Google or Microsoft speech to text APIs to tran
 
 The Telegram Bot API Token
 
-* ODIOIVOCALI_BOT_TOKEN
+* `ODIOIVOCALI_BOT_TOKEN`
 
 Microsoft Azure Cognitive Services Speech to text API Token
 
-* MICROSOFT_SPEECH_APIKEY
+* `MICROSOFT_SPEECH_APIKEY`
 
 OR
 
 Google Cloud Engine Application Credentials
 
-* GOOGLE_APPLICATION_CREDENTIALS
+* `GOOGLE_APPLICATION_CREDENTIALS`
