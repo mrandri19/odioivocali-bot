@@ -1,0 +1,36 @@
+{
+  "name": "odioivocali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch 'server.ts' -e ts,tsx --exec 'ts-node' ./server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^1.5.0",
+    "@types/fluent-ffmpeg": "^2.1.6",
+    "@types/koa": "^2.0.45",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.28",
+    "@types/node-telegram-bot-api": "^0.28.3",
+    "@types/request-promise-native": "^1.0.14",
+    "dotenv": "^5.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/winston": "^2.3.9",
+    "nodemon": "^1.17.3",
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3"
+  }
+}
